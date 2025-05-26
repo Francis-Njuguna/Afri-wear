@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AFRIwear - African Fashion & Branding</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/logo2.jpeg" alt="AFRIwear Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#branding">Branding</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to AFRIWEAR</h1>
+            <p>Premium African Fashion & Branding Solutions</p>
+            <a href="#products" class="cta-button">Shop Now</a>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="assets/hoodie.jpeg" alt="Hoodie" loading="eager">
+                <h3>Premium Hoodies</h3>
+                <p>Comfortable and stylish hoodies with African designs</p>
+                <p class="price">KSH 2,500</p>
+                <button onclick="orderProduct('Premium Hoodie', 2500)" class="order-btn">Order Now</button>
+            </div>
+            <div class="product-card">
+                <img src="assets/shirt.jpeg" alt="T-Shirt" loading="eager">
+                <h3>Designer T-Shirts</h3>
+                <p>High-quality cotton t-shirts with unique prints</p>
+                <p class="price">KSH 1,500</p>
+                <button onclick="orderProduct('Designer T-Shirt', 1500)" class="order-btn">Order Now</button>
+            </div>
+            <div class="product-card">
+                <img src="assets/caps.jpeg" alt="Cap" loading="eager">
+                <h3>Stylish Caps</h3>
+                <p>Trendy caps with custom embroidery</p>
+                <p class="price">KSH 1,000</p>
+                <button onclick="orderProduct('Stylish Cap', 1000)" class="order-btn">Order Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="branding" class="branding">
+        <h2>Branding Services</h2>
+        <div class="branding-content">
+            <div class="branding-card">
+                <i class="fas fa-paint-brush"></i>
+                <h3>Custom Designs</h3>
+                <p>Unique designs tailored to your brand identity</p>
+            </div>
+            <div class="branding-card">
+                <i class="fas fa-tshirt"></i>
+                <h3>Merchandise</h3>
+                <p>Custom branded clothing for your business</p>
+            </div>
+            <div class="branding-card">
+                <i class="fas fa-bullhorn"></i>
+                <h3>Brand Strategy</h3>
+                <p>Complete branding solutions for your business</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <p><i class="fas fa-phone"></i> +254 705 764 209</p>
+            <p><i class="fab fa-whatsapp"></i> WhatsApp: +254 705 764 209</p>
+            <div class="social-links">
+                <a href="https://instagram.com/afriwear" target="_blank" class="social-link">
+                    <i class="fab fa-instagram"></i> @afriwear
+                </a>
+                <a href="https://tiktok.com/@afriwear" target="_blank" class="social-link">
+                    <i class="fab fa-tiktok"></i> @afriwear
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-media">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="https://instagram.com/afriwear" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://tiktok.com/@afriwear" target="_blank"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+            <p>&copy; 2024 AFRIwear. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
